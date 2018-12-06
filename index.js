@@ -37,8 +37,8 @@ Number.prototype.toFixed = function (n) {
     result = integer + '.' + decimal.substr(0, n);
     let last = decimal.substr(n, 1);
   
-    if(/^\d(9){5,}[89]$/.test(decimal.substr(n)) ){
-        last = +last + 1
+    if (/^\d(9){5,}[0-9]$/.test(decimal.substr(n))) {
+        last = +last + 1;
     }
   
     // 四舍五入，转换为整数再处理，避免浮点数精度的损失

@@ -1,0 +1,22 @@
+{
+  "name": "tofixed",
+  "version": "1.0.0",
+  "description": "修复Number.proptofixed,满足四舍五入的期望",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luke93h/toFixed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luke93h/toFixed/issues"
+  },
+  "homepage": "https://github.com/luke93h/toFixed#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
