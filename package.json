@@ -1,5 +1,5 @@
 {
-  "name": "tofixed",
+  "name": "tofixed-polyfill",
   "version": "1.0.0",
   "description": "修复Number.proptofixed,满足四舍五入的期望",
   "main": "index.js",
